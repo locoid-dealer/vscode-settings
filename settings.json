@@ -1,0 +1,35 @@
+{
+  // editor
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.fontFamily": "Ricty Diminished",
+  "editor.fontSize": 14, // デフォルト値だが、なぜか必要
+  "editor.formatOnSave": true,
+  "editor.renderWhitespace": "all",
+  "editor.tabSize": 2,
+  "editor.wordWrap": "on",
+
+  // files
+  "files.autoSave": "afterDelay",
+  "files.eol": "\n",
+
+  // terminal
+  "terminal.integrated.defaultProfile.osx": "zsh",
+  "terminal.integrated.fontFamily": "Ricty Diminished",
+  "terminal.integrated.fontSize": 14, // デフォルト値だが、なぜか必要
+
+  // workbench
+  "workbench.iconTheme": "material-icon-theme",
+  "workbench.startupEditor": "none",
+
+  // python
+  // tabSize以外はblackとisort用の設定
+  "[python]": {
+    "editor.defaultFormatter": "ms-python.black-formatter",
+    "editor.formatOnSave": true,
+    "editor.codeActionsOnSave": {
+      "source.organizeImports": true
+    },
+    "editor.tabSize": 4
+  },
+  "isort.args": ["--profile", "black"]
+}
