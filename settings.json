@@ -12,9 +12,6 @@
   "files.autoSave": "afterDelay",
   "files.eol": "\n",
 
-  // isort
-  "isort.args": ["--profile", "black"],
-
   // terminal
   "terminal.integrated.defaultProfile.osx": "zsh",
   "terminal.integrated.fontFamily": "Ricty Diminished",
@@ -25,13 +22,13 @@
   "workbench.startupEditor": "none",
 
   // python
-  // tabSize以外はblackとisort用の設定
   "[python]": {
     "editor.codeActionsOnSave": {
-      "source.organizeImports": true
+      "source.organizeImports": "explicit"
     },
     "editor.defaultFormatter": "ms-python.black-formatter",
     "editor.formatOnSave": true,
-    "editor.tabSize": 4
+    "editor.tabSize": 4 // これ以外はblackとisortの設定
   },
+  "isort.args": ["--profile", "black"]
 }
