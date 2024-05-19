@@ -23,3 +23,4 @@ code --install-extension simonsiefke.svg-preview
 code --install-extension streetsidesoftware.code-spell-checker
 code --install-extension vincaslt.highlight-matching-tag
 code --install-extension vue.volar
+code --install-extension wayou.vscode-todo-highlight
