@@ -30,5 +30,7 @@
     "editor.formatOnSave": true,
     "editor.tabSize": 4 // これ以外はblackとisortの設定
   },
-  "isort.args": ["--profile", "black"]
+  "isort.args": ["--profile", "black"],
+  "github.copilot.editor.enableAutoCompletions": true,
+  "update.showReleaseNotes": false
 }
