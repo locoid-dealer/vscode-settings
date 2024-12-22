@@ -30,5 +30,6 @@
     "editor.formatOnSave": true,
     "editor.tabSize": 4 // これ以外はblackとisortの設定
   },
-  "isort.args": ["--profile", "black"]
+  "isort.args": ["--profile", "black"],
+  "liveServer.settings.donotShowInfoMsg": true
 }
