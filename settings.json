@@ -21,15 +21,7 @@
   "workbench.iconTheme": "material-icon-theme",
   "workbench.startupEditor": "none",
 
-  // python
-  "[python]": {
-    "editor.codeActionsOnSave": {
-      "source.organizeImports": "explicit"
-    },
-    "editor.defaultFormatter": "ms-python.black-formatter",
-    "editor.formatOnSave": true,
-    "editor.tabSize": 4 // これ以外はblackとisortの設定
-  },
-  "isort.args": ["--profile", "black"],
-  "liveServer.settings.donotShowInfoMsg": true
+  // misc
+  "liveServer.settings.donotShowInfoMsg": true,
+  "update.showReleaseNotes": false
 }
