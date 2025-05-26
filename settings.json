@@ -1,8 +1,6 @@
 {
   // editor
   "editor.defaultFormatter": "esbenp.prettier-vscode",
-  "editor.fontFamily": "Ricty Diminished",
-  "editor.fontSize": 14, // デフォルト値だが、なぜか必要
   "editor.formatOnSave": true,
   "editor.renderWhitespace": "all",
   "editor.tabSize": 2,
@@ -14,14 +12,7 @@
 
   // terminal
   "terminal.integrated.defaultProfile.osx": "zsh",
-  "terminal.integrated.fontFamily": "Ricty Diminished",
-  "terminal.integrated.fontSize": 14, // デフォルト値だが、なぜか必要
 
   // workbench
   "workbench.iconTheme": "material-icon-theme",
-  "workbench.startupEditor": "none",
-
-  // misc
-  "liveServer.settings.donotShowInfoMsg": true,
-  "update.showReleaseNotes": false
 }
